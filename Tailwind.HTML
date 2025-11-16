@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind HTML Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- ✅ Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">MySite</h1>
+      <ul class="flex space-x-6 text-gray-600">
+        <li><a href="#" class="hover:text-indigo-500">Home</a></li>
+        <li><a href="#" class="hover:text-indigo-500">About</a></li>
+        <li><a href="#" class="hover:text-indigo-500">Services</a></li>
+        <li><a href="#" class="hover:text-indigo-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ✅ Hero Section -->
+  <section class="text-center py-20 bg-indigo-50">
+    <h2 class="text-4xl font-bold text-indigo-700 mb-4">Welcome to My Website</h2>
+    <p class="text-gray-600 max-w-xl mx-auto mb-8">
+      A simple, beautiful, and responsive page built using only HTML and Tailwind CSS.
+    </p>
+    <a href="#" class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700 transition">
+      Get Started
+    </a>
+  </section>
+
+  <!-- ✅ Features Section -->
+  <section class="max-w-6xl mx-auto py-16 px-4 grid md:grid-cols-3 gap-8">
+    <div class="bg-white p-6 rounded-2xl shadow text-center">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Fast</h3>
+      <p class="text-gray-600">Tailwind helps you build beautiful sites quickly without writing custom CSS.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow text-center">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Responsive</h3>
+      <p class="text-gray-600">Your website looks great on mobile, tablet, and desktop automatically.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow text-center">
+      <h3 class="text-xl font-semibold text-indigo-600 mb-2">Modern</h3>
+      <p class="text-gray-600">Utility classes give you modern, clean, and flexible design options.</p>
+    </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6 mt-10">
+    <p>© 2025 MySite. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
